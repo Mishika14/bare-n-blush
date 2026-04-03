@@ -45,7 +45,7 @@ const NavBar = () => {
         >
           <div className="flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-full bg-white shadow-sm sm:h-12 sm:w-12">
             <img
-              src={'/src/assets/logo.svg'}
+              src={'/logo.svg'}
               alt='Bare & Blush'
               className='h-full w-full object-contain p-1'
             />
