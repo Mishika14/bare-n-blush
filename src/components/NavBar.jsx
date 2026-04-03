@@ -43,11 +43,11 @@ const NavBar = () => {
           className="flex items-center gap-2 sm:gap-3"
           aria-label="Bare & Blush home"
         >
-          <div className="flex h-7 w-10 shrink-0 items-center justify-center overflow-hidden rounded-full bg-white shadow-sm sm:h-15 sm:w-15">
+          <div className="flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-full bg-white shadow-sm sm:h-12 sm:w-12">
             <img
-              src={'src/assets/logo.jpeg'}
+              src={'/src/assets/logo.svg'}
               alt='Bare & Blush'
-              className='h-full w-full scale-[1.8] translate-x-[3%] translate-y-[15%] object-cover'
+              className='h-full w-full object-contain p-1'
             />
           </div>
 
